@@ -1,0 +1,54 @@
+{
+    "db_url": "mongodb://localhost:27017/artiesdata",
+    "host_url": "http://localhost:9091",
+    "base_path": "data",
+    "ignorePaths": [
+        "smartcontent",
+        "framework",
+        "gulpfile.js",
+        "server.js",
+        "bin",
+        "obj",
+        "worker1.js"
+    ],
+    "apiKeys": {
+        "google": {
+            "apiKey": [
+                ""
+            ],
+            "profileKey": [],
+            "limit": 100,
+            "resetInterval": 86400000,
+            "defaultUnchekedLimit": "200"
+        }
+    },
+    "authorizeNetLogInId": "",
+    "authorizeNetTransactionKey": "",
+    "authLive": false,
+    "s3Config": {
+        "accessKeyId": "",
+        "secretAccessKey": ""
+    },
+    "logging": {
+        "enableServerLogs": false,
+        "enableConsoleLogging": false,
+        "enableS3Logging": false,
+        "enableMongoErrorLogging": false,
+        "server_LogDir": "./logs",
+        "server_LogFileMaxSize": "10m",
+        "server_LogMaxFiles": "30d",
+        "s3_access_key_id": "",
+        "s3_secret_access_key": "",
+        "s3_max_file_size": 52428800,
+        "s3_bucket": "testloggs",
+        "s3_applicationLogsFolder": "applicationLogsDevServer",
+        "s3_errorLogsFolder": "errorLogsDevServer",
+        "s3_applicationLogsNameFormat": "%Y-%m-%d-%H-%M-%S-%L-Application.log",
+        "s3_errorLogsNameFormat": "%Y-%m-%d-%H-%M-%S-%L-Error.log",
+        "logDefaultLevel": "info",
+        "s3RotateEvery": 2880000
+    },
+    "s3Region": "",
+    "s3BucketName": "",
+    "s3ReactBucketXML": ""
+}

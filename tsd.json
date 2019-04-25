@@ -1,0 +1,24 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "winston/winston.d.ts": {
+      "commit": "a2c0d1ebc6ebc284367eedfe0dff3467b1dfc95e"
+    },
+    "sequelize/sequelize.d.ts": {
+      "commit": "d907b02638bf6c56ae3f632ca5c151cb869df5b4"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "d907b02638bf6c56ae3f632ca5c151cb869df5b4"
+    },
+    "validator/validator.d.ts": {
+      "commit": "d907b02638bf6c56ae3f632ca5c151cb869df5b4"
+    },
+    "bluebird/bluebird-2.0.d.ts": {
+      "commit": "d907b02638bf6c56ae3f632ca5c151cb869df5b4"
+    }
+  }
+}
